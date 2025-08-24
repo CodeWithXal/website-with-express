@@ -1,0 +1,511 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   width: 1170px;
+   margin: auto;
+   height: 700px;
+}
+
+/* header*/
+header {
+   background: url("assets/Images/food1.jpg") no-repeat center center;
+   /*background-size: cover;*/
+   height: 95vh;
+}
+
+
+
+
+
+
+/* styles.css */
+.nav-area {
+   list-style-type: none;
+   padding: 0;
+}
+
+.nav-area li {
+   display: inline;
+   margin-right: 15px;
+}
+
+.nav-area li a {
+   text-decoration: none;
+   color: black;
+   padding: 10px 15px;
+   transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-area li a:hover {
+   color: red;
+   /*background-color: mediumvioletred;*/
+}
+
+
+.nav-area {
+   float: right;
+   list-style: none;
+   margin-top: 30px;
+}
+
+.nav-area li {
+   display: inline-block;
+}
+
+
+.nav-area li a {
+   color: #fff;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-family: poppins;
+   font-size: 20px;
+}
+
+
+
+.nav-area li a:hover {
+   background: #fff color(#333)
+}
+
+.logo img {
+
+   width: 100px;
+   float: left;
+   height: auto;
+   padding-top: 20px;
+   border-radius: 10px;
+
+}
+
+
+
+.welcome-text {
+   text-align: center;
+   padding: 50px;
+   border-radius: 10px;
+   max-width: 700px;
+   margin: 50px auto;
+   position: relative;
+}
+
+.welcome-text h1 {
+   font-size: 65px;
+   bottom: 350px;
+   text-align: center;
+   color: white;
+   font-family: monospace;
+   position: absolute;
+   margin-left: 150px;
+}
+
+
+
+
+.hsec1 img {
+   width: 70%;
+   text-align: center;
+   border-radius: 30px;
+   margin-bottom: 30px;
+   transition: transform 0.3s ease;
+}
+
+.hsec1 img:hover {
+   transform: scale(1.1);
+   /* Increase scale on hover (zoom effect) */
+}
+
+
+.style {
+
+   font-family: Courgette;
+   font-size:30px;
+   line-height: 1.2;
+   color: #d61c22;
+   margin-top: 50px;
+
+}
+
+.ros{
+   font-size: 50px;
+   font-family: monospace;
+   color: #000;
+}
+
+.change {
+   text-align: center;
+   color: black
+}
+
+a {
+   color: black;
+
+}
+
+
+.hsec-inner {
+   padding: 20px;
+   position: relative;
+
+
+}
+
+.hsec-inner img {
+   border-radius: 20px;
+   width: 100%;
+   margin-top: 20px;
+   transition: transform 0.3s ease;
+}
+
+
+.hsec-inner img:hover {
+   transform: scale(1.1);
+   /* Increase scale on hover (zoom effect) */
+}
+
+.hsec-inner h4 {
+   font-family: 'monospace';
+   margin-top: 20px;
+
+}
+
+.hsec-inner p {
+   color: #000;
+   text-align: left;
+}
+
+.change {
+
+   padding-top: 10px;
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "monserrat", sans-serif;
+}
+
+body {
+   background: #fff;
+}
+
+.container {
+   background: url('/assets/Images/our-menu-10.jpg.webp') no repeat center;
+   background-size: cover;
+   padding: 100px 40px;
+   text-align: center;
+   color: black;
+}
+
+.container p {
+   max-width: 600px;
+   margin: 40px auto;
+   font-size: 15px;
+   font-weight: 300;
+}
+
+
+
+.hsec0 {
+   background: #aaa;
+   margin: 0;
+   padding: 30px;
+   background-image: url('assets/Images/back1.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   color: red;
+}
+
+
+.hsec0 h3{
+   color: red;
+}
+
+.hsec3 {
+   background-color: gray;
+   margin: 0;
+   padding: 0;
+   background-image: url('/assets/Images/gallery-image9.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-color: rgb(255, 255, 248);
+
+}
+
+.hsec3 h3 {
+   text-align: center;
+   color:red;
+   padding-top: 50px;
+
+}
+
+.hsec3 h1 {
+   text-align: center;
+   color: black;
+   font-weight: bolder;
+   font-size: 50px;
+   letter-spacing: 1rem;
+}
+
+
+
+
+
+
+
+
+h1 {
+   font-size: 3em;
+   color: white;
+   margin: 0;
+   letter-spacing: 3px;
+}
+
+
+.hsec-inner button {
+   font-family: Poppins;
+   font-weight: 500;
+   font-size: 22px;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   border-radius: 5px;
+   background-color: black;
+   font-family: monospace;
+   opacity: 0.5;
+
+
+}
+
+
+/* footer*/
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+footer {
+   background-color: #111;
+}
+
+.footerContainer {
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+
+.socialIcons {
+   display: flex;
+   justify-content: center;
+}
+
+.socialIcons a {
+   text-decoration: none;
+   padding: 10px;
+   background-color: white;
+   margin: 10px;
+   border-radius: 50%;
+}
+
+.socialIcons a i {
+   font-size: 2em;
+   color: black;
+   opacity: 0, 9;
+}
+
+
+.footerNav {
+   margin: 30px 0;
+}
+
+.footerNav ul {
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+}
+
+.footerNav ul li a {
+   color: white;
+   margin: 20px;
+   text-decoration: none;
+   font-size: 1.3em;
+   opacity: 0.7;
+   transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover {
+   opacity: 1;
+}
+
+.footerBottom {
+   background-color: #000;
+   padding: 20px;
+   text-align: center;
+}
+
+.footerBottom p {
+   color: white;
+}
+
+.designer {
+   opacity: 0.7;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+   .footerNav ul {
+      flex-direction: column;
+   }
+
+   .footerNav ul li {
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+   }
+
+   .socialIcons a {
+      padding: 8px;
+      margin: 4px;
+   }
+}
+
+
+
+
+
+/* Hover affect on social media icon */
+
+.socialIcons a:hover {
+   background-color: #111;
+   transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+   color: white;
+   transition: 0.5s;
+}
+
+
+
+/* Hover affect on social media icon */
+.socialIcons a:hover {
+   background-color: #111;
+   transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+   color: white;
+   transition: 0.5s;
+}
+
+
+
+/* newsletter */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+   outline: 0;
+}
+
+.newsletter_wrapper {
+   background: url(assets/Images/NEWSSS.jpeg);
+   height: 50vh;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 0 15px;
+}
+
+.newsletter_wrapper h2 {
+   font-size: 25px;
+   color: black;
+   font-weight: 700;
+   position: relative;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+
+.newsletter_wrapper h2::before {
+   content: "";
+   position: absolute;
+   background: black;
+   width: 90px;
+   height: 1px;
+   bottom: -15px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+
+
+.newsletter_wrapper form {
+   width: 500px;
+   height: 40px;
+   border: 1px solid black;
+   position: relative;
+   background: transparent;
+}
+
+.newsletter_wrapper form input {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   border: transparent;
+   padding-left: 15px;
+   color: black;
+}
+
+.newsletter_wrapper form input::placeholder {
+   color: black;
+}
+
+.newsletter_wrapper form button {
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100%;
+   color: #ffffff;
+   background: black;
+   font-weight: 700;
+   text-transform: uppercase;
+   padding: 0 20px;
+   border: transparent;
+   border-left: 1px solid #ffffff;
+   cursor: pointer;
+   transition: .3s;
+}
+
+.newsletter_wrapper form button:hover {
+   background: #114378;
+}
+
+@media (max-width: 575px) {
+   .newsletter_wrapper form {
+      width: 88%;
+   }
+}
